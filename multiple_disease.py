@@ -3,9 +3,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loaing the saved model
-diabetes_model = pickle.load(open("E:/Downloads/Diabetes/diabetes.sav", 'rb'))
-heart_disease_model = pickle.load(open("E:/Downloads/Heart data/heart_model.sav", 'rb'))
-breast_cancer_model = pickle.load(open("E:/Downloads/Breast Cancer data/breast_cancer_model.sav", 'rb'))
+diabetes_model = pickle.load(open("diabetes.sav", 'rb'))
+heart_disease_model = pickle.load(open("heart_model.sav", 'rb'))
+breast_cancer_model = pickle.load(open("breast_cancer_model.sav", 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
@@ -187,5 +187,6 @@ if selected == 'Breast Cancer Prediction':
             
     st.success(breast_cancer_diagnosis)
     
+
 
 
