@@ -40,16 +40,6 @@ Pickle
 
 Streamlit Option Menu
 
-📂 Project Structure
-Multiple-Disease-Prediction-System/
-│
-├── multiple_disease.py        # Main Streamlit application
-├── diabetes.sav               # Trained Diabetes model
-├── heart_model.sav            # Trained Heart Disease model
-├── breast_cancer_model.sav    # Trained Breast Cancer model
-├── requirements.txt           # Required Python libraries
-└── README.md
-
 📊 How It Works
 
 Select a disease prediction module from the sidebar.
